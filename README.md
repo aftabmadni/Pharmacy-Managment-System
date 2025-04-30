@@ -1,3 +1,4 @@
+
 # 💊 Pharmacy Management System
 
 A full-stack web application designed to streamline pharmacy operations, including medicine inventory management, sales processing, and customer interactions.
@@ -13,14 +14,14 @@ A full-stack web application designed to streamline pharmacy operations, includi
 
 ## 🛠 Tech Stack
 
-- *Frontend*: React.js
-- *Backend*: Node.js, Express.js
-- *Database*: MongoDB
-- *Version Control*: Git & GitHub
+- **Frontend**: React.js  
+- **Backend**: Node.js, Express.js  
+- **Database**: MongoDB  
+- **Version Control**: Git & GitHub  
 
 ## 📁 Project Structure
 
-
+```
 Pharmacy-Management-System/
 ├── backend/             # Express.js server and API routes
 ├── frontend/            # React.js application
@@ -29,7 +30,7 @@ Pharmacy-Management-System/
 ├── Procfile             # For deployment
 ├── README.md
 └── server.js            # Entry point for the backend
-
+```
 
 ## 🧪 Installation & Setup
 
@@ -40,51 +41,46 @@ Pharmacy-Management-System/
 
 ### Steps
 
-1. *Clone the repository*
-
-   bash
+1. **Clone the repository**
+   ```bash
    git clone https://github.com/AsifMadni118/Pharmacy-Management-System.git
    cd Pharmacy-Management-System
-   
+   ```
 
-2. *Install backend dependencies*
-
-   bash
+2. **Install backend dependencies**
+   ```bash
    cd backend
    npm install
-   
+   ```
 
-3. *Install frontend dependencies*
-
-   bash
+3. **Install frontend dependencies**
+   ```bash
    cd ../frontend
    npm install
-   
+   ```
 
-4. *Configure environment variables*
+4. **Configure environment variables**
 
-   Create a .env file in the backend directory with the following content:
+   Create a `.env` file in the `backend` directory with the following content:
 
-   env
+   ```
    PORT=5000
    MONGODB_URI=your_mongodb_connection_string
    JWT_SECRET=your_jwt_secret
-   
+   ```
 
-5. *Start the development servers*
+5. **Start the development servers**
 
-   - *Backend*
-
-     bash
+   - **Backend**
+     ```bash
      cd ../backend
      npm start
-     
+     ```
 
-   - *Frontend*
-
-     bash
+   - **Frontend**
+     ```bash
      cd ../frontend
      npm start
-     
+     ```
 
-   The frontend will run on http://localhost:3000 and the backend API on http://localhost:5000.
+The frontend will run on [http://localhost:3000](http://localhost:3000) and the backend API on [http://localhost:5000](http://localhost:5000).
